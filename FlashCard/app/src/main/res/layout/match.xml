@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_match"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/backB"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:src="@drawable/ic_back"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_timer"
+        app:tint="@color/blue"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@id/timer_indicator_textview"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/timer_indicator_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="5:46" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="3" >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="belonging to a period other than that being portrayed"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="make (something bad or unsatisfactory) better"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="bold and without shame"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="brazen"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="open and responsive to suggestion; easily peruaded or controlled"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="aggrandize"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="anachronistic"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="ameliorate"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview9"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="raise objections or show reluctance"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview10"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="amenable"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview11"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="increase the power, status, or wealth of"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview12"
+            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_margin="5sp"
+            android:background="#ffffff"
+            android:text="demur"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>
